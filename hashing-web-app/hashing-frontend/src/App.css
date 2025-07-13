@@ -1,0 +1,54 @@
+html, body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+				overflow: hidden;
+				background: linear-gradient(to right, #6a11cb, #2575fc);
+				/* Purple to blue */
+				color: white;
+				min-height: 100vh;
+				padding: 2rem;
+				box-sizing: border-box;
+}
+container {
+				text-align: center;
+				margin:0 auto;
+				box-sizing: border-box;
+}
+
+textarea {
+				margin: 10px;
+				padding: 10px;
+}
+
+button {
+				padding: 10px 10px;
+				font-size: 16px;
+				cursor: pointer;
+}
+.hash-text {
+			word-break: break-all;
+			overflow-wrap: break-word;
+			white-space: pre-wrap;	
+}
+.card-settings {
+				width: auto;
+				height: 300px;
+				justify-content: center;
+				align-items: center;
+}
+@media (min-width: 576px) {
+				.card-settings {
+					width: 83.3333%
+				}
+}
+@media (min-width: 768px) {
+				.card-settings {
+					width: 66.66667%
+				}
+}
+@media (min-width: 992px) {
+				.card-settings {
+					width: 50%
+				}
+}
